@@ -135,6 +135,7 @@ if (defined('ENVIRONMENT'))
  *  Resolve the system path for increased reliability
  * ---------------------------------------------------------------
  */
+	define('APP_NAME', 'lmsextjs');
 
 	// Set the current directory correctly for CLI requests
 	if (defined('STDIN'))
@@ -194,7 +195,7 @@ if (defined('ENVIRONMENT'))
 	}
 
 
-if(!(define('TEMPLATES')))
+if(!(defined('TEMPLATES')))
 {
 	define('TEMPLATES', BASEPATH.$application_folder.'/'.$templates_folder.'/');
 }

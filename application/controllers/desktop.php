@@ -1,6 +1,7 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Desktop extends CI_Controller {
+//class Desktop extends CI_Controller {
+class desktop extends MY_Controller {
 
 	function __construct()
 	{

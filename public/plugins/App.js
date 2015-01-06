@@ -68,7 +68,7 @@ Ext.define('MyDesktop.App', {
                 ]
             }),
 
-            wallpaper: 'wallpapers/Blue-Sencha.jpg',
+            wallpaper: 'desktop/wallpapers/Blue-Sencha.jpg',
             wallpaperStretch: false
         });
     },
@@ -116,8 +116,15 @@ Ext.define('MyDesktop.App', {
         });
     },
 
-    onLogout: function () {
+    /*onLogout: function () {
         Ext.Msg.confirm('Logout', 'Are you sure you want to logout?');
+    },*/
+    onLogout: function(){
+        Ext.Msg.confirm("Confirm","Are you sure you want to logout?",function(btn){
+            if(btn === "yes"){
+                document.location = 'auth/logout';
+            }
+        });
     },
 
     onSettings: function () {

@@ -361,7 +361,7 @@ $config['rewrite_short_tags'] = FALSE;
   |
  */
 $config['proxy_ips'] = '';
-$config['modules_locations'] ='';
+$config['modules_locations'] = '';
 
 
 /* End of file config.php */

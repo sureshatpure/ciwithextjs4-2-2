@@ -1,0 +1,9 @@
+	<script src="<?= base_url()?>public/bootstrap/js/bootstrap-alert.js" type="text/javascript"></script>
+	<script src="<?= base_url()?>public/bootstrap/js/bootstrap-tooltip.js" type="text/javascript"></script>
+	<script src="<?= base_url()?>public/bootstrap/js/bootstrap-tab.js" type="text/javascript"></script>
+	<script src="<?= base_url()?>public/bootstrap/js/bootstrap-collapse.js" type="text/javascript"></script>
+	<script src="<?= base_url()?>public/bootstrap/js/bootstrap-modal.js" type="text/javascript"></script>
+	<script src="<?= base_url()?>public/bootstrap/js/bootstrap-dropdown.js" type="text/javascript"></script>
+	<script src="<?= base_url()?>public/bootstrap/js/bootstrap-popover.js" type="text/javascript"></script>
+	<script src="<?= base_url()?>public/bootstrap/js/bootbox.min.js" type="text/javascript"></script>
+	<script src="<?= base_url()?>public/bootstrap/js/eternicode-bootstrap-datepicker/js/bootstrap-datepicker.js?&amp;v=6.0.0Beta" type="text/javascript"></script>
